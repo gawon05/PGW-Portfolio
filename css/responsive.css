@@ -1,0 +1,341 @@
+@media screen and (max-width: 380px) {
+    .mobile-list2 li a {
+        font-size: 0.5rem;
+        font-weight: bold;
+        color: rgb(2, 2, 2);
+    }
+
+    .mobile-list2 li a.on {
+        font-size: 0.7rem;
+        text-shadow: 0 0 20px #ddd;
+    }
+
+    .mobile1 .hamburger span {
+        height: 4px;
+    }
+
+    .mobile1 {
+        height: 50px;
+        position: fixed;
+    }
+
+    .mobile-list {
+        position: fixed;
+        width: 100%;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .wrap {
+        background-color: rgb(3, 3, 3);
+    }
+
+    header {
+        max-width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+
+    }
+
+    header .logo {
+        display: none;
+    }
+
+    .pc-list {
+        display: none;
+    }
+
+    .mobile1 {
+        width: 100%;
+        padding: 0 1rem;
+        position: fixed;
+        margin: 0 auto;
+
+    }
+
+    .mobile1 h2 {
+        display: block;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+        
+    }
+    .mobile1 h2 a{
+        color: #fff;
+    }
+    .mobile1 .hamburger {
+        display: block;
+    }
+
+    .mobile-list {
+        position: fixed;
+    }
+
+    .mobile-list li:hover a {
+        color: tomato;
+    }
+
+    .down {
+        background-color: rgba(255, 255, 255, 0.9);
+        color: #000;
+    }
+
+    .down h2 a{
+        color: #000;
+    }
+
+    .down .hamburger span {
+        background-color: #000;
+    }
+
+    .down ul li a {
+        color: #000;
+    }
+
+    .down ul li a:hover {
+        color: tomato;
+    }
+
+    .prall {
+        display: none;
+
+    }
+
+    .innerpr {
+        display: block;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .profilepr img {
+        width: 70%;
+        height: 60%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide:last-child {
+        justify-content: space-between;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .profilepr h2 {
+        font-size: 2rem;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .profilepr .contact {
+        font-family: "Noto Serif KR", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .background h2 {
+        font-size: 2rem;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .background .binner p {
+        font-family: "Hahmlet", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .experience h2 {
+        font-size: 2rem;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .experience .einner p {
+        font-family: "Hahmlet", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .skill h2 {
+        font-size: 2rem;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    .gawon1pr .swiper-wrapper .swiper-slide .skill .sinner p {
+        font-family: "Hahmlet", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .profile .contact {
+
+        font-family: "Noto Serif KR", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #photo {
+        padding-top: 7rem;
+    }
+
+    .phall>h2 {
+        font-size: 2rem;
+    }
+
+    .gawon1 .swiper-wrapper img{
+        display: block;
+        margin: 0 auto;
+        height: 100%;
+        width: 90%;
+        margin-top: 0;
+    }
+    .box1 .gawon2 .swiper-wrapper img{
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    #video {
+        padding-top: 8rem;
+    }
+
+    .mobile2 h2 {
+        font-size: 2rem;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    .mobile-list2 li a {
+        font-size: 0.7rem;
+        font-family: "Do Hyeon", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #interview {
+        padding-top: 7rem;
+    }
+
+    .interviewinner h2 {
+        font-size: 2rem;
+    }
+
+
+    .phall{
+        width: 90%;
+    }
+    .phall>h2 {
+        text-align: center;
+        line-height: 50px;
+        margin-bottom: 1rem;
+    }
+
+    .phall .phnav ul {
+        margin-bottom: 1.5rem;
+    }
+
+    .phall .phnav ul li a {
+        font-size: 1rem;
+    }
+
+    .phall .phnav {
+        display: block;
+    }
+
+    .swiperall {
+        position: relative;
+    }
+
+    .swiper1,
+    .box1,
+    .box2 {
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        display: none;
+    }
+    #video{
+        padding-top: 60px;
+    }
+    #video>h2 {
+        display: none;
+    }
+    .work-section{
+        width: 90%;
+    }
+    .work-section .inner {
+        display: none;
+    }
+
+    .ml2 {
+        display: block;
+    }
+
+    .mobile2 h2 {
+        display: block;
+    }
+
+    .mobile2 .plus {
+        display: block;
+    }
+
+    .interviewinner video {
+        width: 100%;
+        height: 50%;
+    }
+
+    .interviewinner {
+        padding: 0;
+        width: 90%;
+    }
+    .gotop {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+}
+}
+
+@media screen and (max-width: 1550px) {
+    #video>h2 {
+        font-size: 4rem;
+        position: absolute;
+        bottom: 30%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #video>h2 {
+        font-size: 3.5rem;
+        position: absolute;
+        bottom: 38%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #video>h2 {
+        font-size: 3rem;
+        position: absolute;
+        bottom: 45%;
+        left: 0;
+    }
+}
