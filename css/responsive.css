@@ -26,6 +26,48 @@
     }
 }
 
+
+@media screen and (max-width: 1550px) {
+    #video>h2 {
+        font-size: 4rem;
+        position: absolute;
+        bottom: 30%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #video>h2 {
+        font-size: 3.5rem;
+        position: absolute;
+        bottom: 38%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #video>h2 {
+        font-size: 3rem;
+        position: absolute;
+        bottom: 45%;
+        left: 0;
+    }
+}
+@media screen and (max-width: 1366px){
+    .profile img {
+        margin: 2rem 0;
+    }
+    .gawon1 .swiper-wrapper img{
+        width: 100%;
+        margin-top: -110px;
+    }
+    .gawon2 .swiper-wrapper img{
+        padding: 3rem 0;
+    }
+    .gawon3 .swiper-wrapper img{
+        padding: 3rem 0;
+    }
+}
 @media screen and (max-width: 760px) {
     .wrap {
         background-color: rgb(3, 3, 3);
@@ -109,7 +151,7 @@
 
     .gawon1pr .swiper-wrapper .swiper-slide .profilepr img {
         width: 70%;
-        height: 60%;
+        height: 70%;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
@@ -177,7 +219,13 @@
         font-weight: 400;
         font-style: normal;
     }
-
+    .gawon1pr .swiper-wrapper .swiper-slide .skill .sinner img{
+        width: 30px;
+    }
+    .profile img {
+        margin: 0;
+        width: 70%;
+    }
     .profile .contact {
 
         font-family: "Noto Serif KR", serif;
@@ -193,19 +241,29 @@
     .phall>h2 {
         font-size: 2rem;
     }
-
+    
     .gawon1 .swiper-wrapper img{
         display: block;
         margin: 0 auto;
         height: 100%;
         width: 90%;
         margin-top: 0;
+        object-fit: cover;
+
     }
     .box1 .gawon2 .swiper-wrapper img{
         width: 95%;
         display: block;
         margin: 0 auto;
         margin-top: 80px;
+        padding: 0;
+    }
+    .box2 .gawon3 .swiper-wrapper img{
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        padding: 0;
     }
     #video {
         padding-top: 8rem;
@@ -311,31 +369,4 @@
         right: 20px;
 
 }
-}
-
-@media screen and (max-width: 1550px) {
-    #video>h2 {
-        font-size: 4rem;
-        position: absolute;
-        bottom: 30%;
-        left: 0;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    #video>h2 {
-        font-size: 3.5rem;
-        position: absolute;
-        bottom: 38%;
-        left: 0;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    #video>h2 {
-        font-size: 3rem;
-        position: absolute;
-        bottom: 45%;
-        left: 0;
-    }
 }
